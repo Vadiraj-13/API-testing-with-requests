@@ -1,0 +1,14 @@
+CRUD
+
+Create=POST
+Read=GET
+Update=PUT/PATCH
+Delete=DELETE
+
+
+PUT---The whole object to be returned
+If the record exists---it is replaced else a new record is created
+
+PATCH---Only the object that is being updated is returned
+
+API-Slow-Down---timeout---delay limit
